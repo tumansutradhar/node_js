@@ -92,3 +92,56 @@
 
 // --------------------------------------------------
 
+// console.log("------------ Npm Nodemon ------------");
+// console.warn("Hello World");
+// console.log("Hello World");
+// console.log("----------------------------------------");
+
+// --------------------------------------------------
+
+// const http = require("http");
+// const data = require("./data");
+
+// http.createServer((req, res) => {
+//     res.writeHead(200, {
+//         "Content-Type": "application/json",
+//     });
+//     res.write(JSON.stringify(data));
+//     res.end();
+// }).listen(3000);
+
+// --------------------------------------------------
+
+// console.log(process.argv[0]);
+
+// const fs = require("fs");
+// const input = process.argv;
+
+// const command = input[2];
+// const filename = input[3];
+// const content = input[4];
+
+// if (command === "add") {
+//     if (!filename || !content) {
+//         console.log("Usage: node script.js add <filename> <content>");
+//         process.exit(1);
+//     }
+//     fs.writeFileSync(filename, content);
+//     console.log(`File '${filename}' created with content: "${content}"`);
+// } else if (command === "remove") {
+//     if (!filename) {
+//         console.log("Usage: node script.js remove <filename>");
+//         process.exit(1);
+//     }
+//     try {
+//         fs.unlinkSync(filename);
+//         console.log(`File '${filename}' has been removed.`);
+//     } catch (error) {
+//         console.error(`Error: ${error.message}`);
+//     }
+// } else {
+//     console.log("Invalid command! Use 'add' or 'remove'.");
+// }
+
+// --------------------------------------------------
+
