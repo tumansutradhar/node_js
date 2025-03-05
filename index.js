@@ -145,3 +145,32 @@
 
 // --------------------------------------------------
 
+// const fs = require("fs");
+// const path = require("path");
+// const dirname = path.join(__dirname, "files");
+
+// console.log("Target directory:", dirname);
+
+// if (!fs.existsSync(dirname)) {
+//     fs.mkdirSync(dirname);
+//     console.log("Directory created:", dirname);
+// }
+
+// for (let i = 1; i <= 5; i++) {
+//     const filePath = path.join(dirname, `file${i}.txt`);
+//     fs.writeFileSync(filePath, `This is file ${i}`);
+//     console.log(`Created: ${filePath}`);
+// }
+
+// fs.readdir(dirname, (error, files) => {
+//     if (error) {
+//         console.error("Error reading directory:", error.message);
+//         return;
+//     } if (files.length === 0) {
+//         console.log("No files found in the directory.");
+//     } else {
+//         console.log("Files in directory:", files);
+//     }
+// });
+
+// --------------------------------------------------
